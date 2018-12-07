@@ -2,7 +2,7 @@ Python 3.7
 
 Instructions:
 
-Need to have pulled the cache_encryptedB.db from an iOS device. Make sure the script and the extracted databse are in the same folder. Within this .db there are several tables that hold location data which is why I created this. 
+Need to have pulled the cache_encryptedB.db from an iOS device. 
 
 This script is able to pull the location data from the following tables CellLocation, LteCellLocation, LteCellLocationLocal, and WifiLocation. 
 
@@ -12,6 +12,7 @@ The other S@n_cache_encryptedB_all.py that pulls all columns from within the tab
 
 To import this into Google Earth just launch Google Earth and goto file/import and point it to the pulled csv files. 
 
+Example: $ $python3.7 S@n_cache_encrypted.py cache_encryptedB.db
 
 Work in progress: 
 

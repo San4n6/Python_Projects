@@ -4,7 +4,7 @@ Python 3.7
 
 Instructions:
 
-Need to have pulled the cache_encryptedB.db from an iOS device. Within this .db there are several tables that hold location data which is why I created this. 
+Need to have pulled the cache_encryptedB.db from an iOS device. Make sure that the script and the database are in the same folder and just launch the script. Within this .db there are several tables that hold location data which is why I created this. 
 
 This script is able to pull the location data from the following tables CellLocation, LteCellLocation, LteCellLocationLocal, and WifiLocation. 
 
